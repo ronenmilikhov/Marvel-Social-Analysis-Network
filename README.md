@@ -1,5 +1,12 @@
 # Marvel Universe Social Network Analysis
 
+## Composers
+* **Ronen Milikhov**
+* **Shachar Wilk**
+* **Or Sadof**
+Institution: Ruppin Academic Center
+Course: Graph Algorithms
+
 ## Overview
 This project models the Marvel Comics Universe as a massive, undirected social network to uncover its underlying structural mechanics. By applying graph theory algorithms, we analyze a dataset of over 6,400 characters and 167,000 co-occurrence connections to find key influencers, detect natural character factions, and predict future team-ups.
 
@@ -16,8 +23,3 @@ This project models the Marvel Comics Universe as a massive, undirected social n
 ## Tech Stack
 * **Language:** Python
 * **Libraries:** `NetworkX`, `Pandas`, `Scikit-learn`, `Matplotlib`, `Seaborn`
-
-## Authors
-* **Ronen Milikhov**
-* **Shachar Wilk**
-* **Or Sadof**
