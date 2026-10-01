@@ -13,7 +13,7 @@ This project models the Marvel Comics Universe as a massive, undirected social n
 ## Key Features & Research Questions
 * **Centrality & Influence:** Evaluated characters using **Degree Centrality** and approximate **Betweenness Centrality** to distinguish popular "hubs" (e.g., Captain America) from structural "bridges" (e.g., Spider-Man, Wolverine) that connect disparate parts of the universe.
 * **Blind Community Detection:** Applied the **Louvain Algorithm** to autonomously partition the network into 26 communities (Modularity Score: Q = 0.4228). We validated the detected structure against source-level co-occurrence records in `edges.csv`: 61.46% of reconstructed character-pair edges remained within communities, compared with a 15.05% community-size baseline.
-* **Link Prediction (Machine Learning):** Designed a controlled classification experiment by masking 1% of existing edges. Using structural heuristics (**Common Neighbors, Jaccard Coefficient, Adamic-Adar Index**), all three heuristics produced the same binary predictions under the selected threshold, with an **Accuracy of 82.18%** and an **F1-Score of 84.87%**.
+* **Link Prediction (Network Heuristics):** Designed a controlled classification experiment by masking 1% of existing edges. Using structural heuristics (**Common Neighbors, Jaccard Coefficient, Adamic-Adar Index**), all three heuristics produced the same binary predictions under the selected threshold, with an **Accuracy of 82.18%** and an **F1-Score of 84.87%**.
 
 ## Repository Structure
 * `Graph_Algorithms_Final_Project.ipynb` - The complete, self-contained Python notebook containing all data processing, algorithm implementations, and visualization code.
